@@ -30,7 +30,7 @@ from astropy.io import fits
 
 BASE = Path(r"C:\Users\Pedro\Desktop\TOI_2076")
 RAW = BASE / "raw" / "TOI-2076_JWST_MAST"
-OUT = BASE / "metadata"
+OUT = BASE / "outputs" / "tabelas"
 
 OUT.mkdir(exist_ok=True)
 
